@@ -23,7 +23,7 @@ body {
 }
 .logo {
   width: 40px;
-  padding: 2px;
+  padding: 2px 10px;
 }
 .nav-bar ul {
   display: flex;
@@ -40,7 +40,7 @@ body {
   text-decoration: none;
   display: block;
   font-size: 15px;
-  padding: 13px 10px;
+  padding: 13px 15px;
   color: white;
 }
 .nav-bar ul li a:hover {
@@ -69,51 +69,27 @@ body {
   color: #c6ba0e
 }
 .table {
-
   display: flex;
-
-  flex-direction: column;
-
+  flex-wrap: wrap;
   position: relative;
-
-  top: 60px;
-
+  top: 80px;
   z-index: -1;
-
 }
-
 .table-list{
-
-  width: 80%;
-
+  width: 40%;
   margin: 10px auto;
-
   border-collapse: collapse;
-
   padding: 5px 10px;
-
 }
-
 .table-list tr th {
-
   background: #282828;
-
   color: #a69700;
-
   border: 1px #282828;
-
   padding: 5px 10px;
-
 }
-
 .table-list tr td {
-
   text-align: center;
-
   border: 1px solid #282828;
-
   padding: 5px 10px;
-
   color: white;
-
 }
