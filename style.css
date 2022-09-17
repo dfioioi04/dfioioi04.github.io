@@ -68,11 +68,20 @@ body {
   font-family: 'Bebas Neue', cursive;
   color: #c6ba0e
 }
+.background {
+  position: relative;
+  top: 60px;
+  z-index: -1;
+}
+.community_fund div {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+  color: #c6ba0e
+}
 .table {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-  top: 80px;
   z-index: -1;
 }
 .table-list{
@@ -92,4 +101,21 @@ body {
   border: 1px solid #282828;
   padding: 5px 10px;
   color: white;
+}
+.total_fund {
+  margin: 20px;
+}
+.total_fund span {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Bebas Neue', cursive;
+}
+.total_fund div {
+  text-align: center;
+  font-size: 15px;
+  color: white
+  letter-spacing: 60px;
 }
