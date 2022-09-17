@@ -68,3 +68,52 @@ body {
   font-family: 'Bebas Neue', cursive;
   color: #c6ba0e
 }
+.table {
+
+  display: flex;
+
+  flex-direction: column;
+
+  position: relative;
+
+  top: 60px;
+
+  z-index: -1;
+
+}
+
+.table-list{
+
+  width: 80%;
+
+  margin: 10px auto;
+
+  border-collapse: collapse;
+
+  padding: 5px 10px;
+
+}
+
+.table-list tr th {
+
+  background: #282828;
+
+  color: #a69700;
+
+  border: 1px #282828;
+
+  padding: 5px 10px;
+
+}
+
+.table-list tr td {
+
+  text-align: center;
+
+  border: 1px solid #282828;
+
+  padding: 5px 10px;
+
+  color: white;
+
+}
